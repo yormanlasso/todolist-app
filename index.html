@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todoapp</title>
+    <link rel="stylesheet" href="stilos.css">
+</head>
+<body>
+    <header>
+        <h1>Listado de Tareas</h1>
+    </header>
+    <section class="container">
+        <div class="form-data">
+            <h2>Crea una nueva tarea</h2>
+            <form action="">
+            <Label for="">Nombre</Label>
+            <input type="text" id="name">
+            <label for="">Descripcion</label>
+            <textarea name="" id="description" rows="4"></textarea>
+            <label for="">Fecha de la tarea</label>
+            <input type="date" id="date">
+            <button type="button">Agregar</button>
+        </form>
+        </div>
+        <div class="list-add">
+            <h2>listado de tareas nuevas
+
+            </h2>
+            <ul>
+                <li>
+                    <b><span id="name">Lavar los platos</span></b>
+                    <span id="description">recordar lavar los platos</span>
+                  <div>
+                      <span id="date">2024/10/27</span>
+                      <span id="status" class="pending">Pendiente</span>
+                  </div>
+                  <div>
+                      <button type="button"class="succels">terminar</button>
+                      <button type="button" class="danger">eliminar</button>
+                  </div>
+                </li>
+                <li>
+                    <b><span id="name">Lavar los platos</span></b>
+                    <span id="description">recordar lavar los platos</span>
+                  <div>
+                      <span id="date">2024/10/27</span>
+                      <span id="status" class="pending">Pendiente</span>
+                  </div>
+                  <div>
+                      <button type="button"class="succels">terminar</button>
+                      <button type="button" class="danger">eliminar</button>
+                  </div>
+                </li>
+                <li>
+                    <b><span id="name">Lavar los platos</span></b>
+                    <span id="description">recordar lavar los platos</span>
+                  <div>
+                      <span id="date">2024/10/27</span>
+                      <span id="status" class="pending">Pendiente</span>
+                  </div>
+                  <div>
+                      <button type="button"class="succels">terminar</button>
+                      <button type="button" class="danger">eliminar</button>
+                  </div>
+                </li>
+            </ul>
+        </div>
+        <list-chekc>
+            <p>esto es listado de las tareas terminadas</p>
+        </list-chekc>
+    </section>
+    <script src="indes.js"></script>
+</body>
+</html>
