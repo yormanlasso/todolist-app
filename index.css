@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-title: system-ui, -apple-system, BlinkMacSystemFont,
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --succes: #82dd55;
+    --succes-hover: #28a745;
+    --danger: #dc3545;
+    --danger-hover: #b72c3a;
+    --warning: #ffc107;
+}
+
+
+/*Estos son los estilos del header */
+header {
+    width: 1400px;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 10px;
+    font-family: var(--font-title);
+    font-size: 25px;
+}
+
+
+/*esto son los estilos del section */
+.container {
+    width: 1400px;
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+/*esto son los estilos del form-data */
+
+.container .form-data {
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container .form-data form {
+    display: grid;
+    gap: 10px;
+}
+
+.container .form-data form button {
+    width: 100px;
+    margin: auto;
+    padding: 4px 8px 4px 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--succes);
+    color: white;
+    font-family: var(--font-title);
+    cursor: pointer;
+
+}
+
+.container .form-data form button:hover {
+    background-color: var(--succes-hover);
+}
+
+/*esto son los estilos del list-add */
+
+
+.container .list-add {
+    font-family: var(--font-title);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.container .list-add ul {
+    margin-top: 20px;
+}
+
+.container .list-add ul li {
+    display: grid;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+
+.container .list-add ul li .success {
+    background-color: var(--succes);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 2px 4px 2px 4px;
+    cursor: pointer;
+    width: 100px;
+}
+
+.container .list-add ul li .success:hover {
+    background-color: var(--succes-hover);
+}
+
+.container .list-add ul li .danger:hover {
+    background-color: var(--danger-hover);
+}
+
+.container .list-add ul li .danger {
+    background-color: var(--danger);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 2px 4px 2px 4px;
+    cursor: pointer;
+    width: 100px;
+}
+
+.container .list-add ul li .pending {
+    background-color: var(--warning);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 0 2px 0 2px;
+    width: 100px;
+}
+/*estilos de la lista de tareas terminadas*/
+
+
+.container .list-clecked {
+    font-family: var(--font-title);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.container .list-clecked ul {
+    margin-top: 20px;
+}
+
+.container .list-clecked ul li {
+    display: grid;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+
+.container .list-clecked ul li .success {
+    background-color: var(--succes);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 2px 4px 2px 4px;
+    cursor: pointer;
+    width: 100px;
+}
+
+.container .list-clecked ul li .success:hover {
+    background-color: var(--succes-hover);
+}
+
+.container .list-clecked ul li .danger:hover {
+    background-color: var(--danger-hover);
+}
+
+.container .list-clecked ul li .danger {
+    background-color: var(--danger);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 2px 4px 2px 4px;
+    cursor: pointer;
+    width: 100px;
+}
+
+.container .list-clecked ul li .success {
+    background-color: var(--succes-hover);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 0 2px 0 2px;
+    width: 100px;
+}

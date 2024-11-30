@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo app</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+         <h1>Listado de Tareas</h1>
+    </header>
+    <section class="container">
+         <div class="form-data">
+            <h2>Crea una nueva tarea</h2>
+            <form id="form_todo">
+                <label for="">Nombre:</label>
+                <input type="text" id="name">
+                <label for="">Descripsion:</label>
+                <textarea name="" id="description" rows="4"></textarea>
+                <label for="">Fecha tarea</label>
+                <input type="date" id="date">
+                <button type="button" id="btn-newtodo">Agregar</button>
+            </form>
+         </div>
+         <div class="list-add">
+             <h2>
+                Listado de tareas nuevas
+             </h2>
+             <ul id="list-todo-pending">
+                 
+             </ul>
+         </div>
+         <div class="list-clecked">
+            <h2>
+                Listado de tareas terminadas
+             </h2>
+             <ul id="list-todo-terminadas">
+                
+                     
+             </ul>
+         </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
